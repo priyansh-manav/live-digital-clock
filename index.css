@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-image: url(marvels-spider-man-3840x2160-11990.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    background-color: rgba(128, 128, 128, 0.11);
+}
